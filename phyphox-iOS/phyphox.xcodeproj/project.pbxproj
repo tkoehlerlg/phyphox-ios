@@ -214,6 +214,20 @@
 		C0AE8A982294558000A3EC48 /* ConfigConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AE8A972294558000A3EC48 /* ConfigConversion.swift */; };
 		C0C529002254C01E001E5EFD /* ReduceAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C528FF2254C01E001E5EFD /* ReduceAnalysis.swift */; };
 		C0C529102254F2F3001E5EFD /* MapAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5290F2254F2F3001E5EFD /* MapAnalysis.swift */; };
+		D95C25DA2701CD0500900C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95C25D92701CD0500900C1B /* Assets.xcassets */; };
+		D95C25E02701CD0500900C1B /* phyphox-watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D95C25DF2701CD0500900C1B /* phyphox-watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D95C25E52701CD0500900C1B /* phyphoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C25E42701CD0500900C1B /* phyphoxApp.swift */; };
+		D95C25E72701CD0500900C1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C25E62701CD0500900C1B /* ContentView.swift */; };
+		D95C25E92701CD0500900C1B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C25E82701CD0500900C1B /* NotificationController.swift */; };
+		D95C25EB2701CD0500900C1B /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C25EA2701CD0500900C1B /* NotificationView.swift */; };
+		D95C25ED2701CD0500900C1B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C25EC2701CD0500900C1B /* ComplicationController.swift */; };
+		D95C25EF2701CD0700900C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95C25EE2701CD0700900C1B /* Assets.xcassets */; };
+		D95C25F22701CD0700900C1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95C25F12701CD0700900C1B /* Preview Assets.xcassets */; };
+		D95C25FE2701CD0700900C1B /* phyphox_watchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C25FD2701CD0700900C1B /* phyphox_watchTests.swift */; };
+		D95C26082701CD0700900C1B /* phyphox_watchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C26072701CD0700900C1B /* phyphox_watchUITests.swift */; };
+		D95C260A2701CD0700900C1B /* phyphox_watchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C26092701CD0700900C1B /* phyphox_watchUITestsLaunchTests.swift */; };
+		D95C260D2701CD0700900C1B /* phyphox-watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D95C25D72701CD0300900C1B /* phyphox-watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D95C261D2701CE9100900C1B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C261C2701CE9100900C1B /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -385,6 +399,34 @@
 			remoteGlobalIDString = 6CD990101B77868C0011A685;
 			remoteInfo = "iOS CocoaAsyncSocket";
 		};
+		D95C25E12701CD0500900C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B7BF7721C130425007408FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95C25DE2701CD0500900C1B;
+			remoteInfo = "phyphox-watch WatchKit Extension";
+		};
+		D95C25FA2701CD0700900C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B7BF7721C130425007408FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95C25DE2701CD0500900C1B;
+			remoteInfo = "phyphox-watch WatchKit Extension";
+		};
+		D95C26042701CD0700900C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B7BF7721C130425007408FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95C25D62701CD0300900C1B;
+			remoteInfo = "phyphox-watch";
+		};
+		D95C260B2701CD0700900C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B7BF7721C130425007408FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95C25D62701CD0300900C1B;
+			remoteInfo = "phyphox-watch";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -400,6 +442,28 @@
 				6B08152A1CABEE7700EE2791 /* JGProgressHUD.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C26112701CD0700900C1B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D95C25E02701CD0500900C1B /* phyphox-watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C26152701CD0700900C1B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D95C260D2701CD0700900C1B /* phyphox-watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -657,6 +721,24 @@
 		C0F2A7C622E5E16F00CC2C2A /* sr_Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr_Latn; path = sr_Latn.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0F2A7C722E5E16F00CC2C2A /* sr_Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr_Latn; path = sr_Latn.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D95C25BE2701BC8500900C1B /* CocoaAsyncSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaAsyncSocket.xcodeproj; path = ../../../../.Trash/CocoaAsyncSocket.xcodeproj; sourceTree = "<group>"; };
+		D95C25D72701CD0300900C1B /* phyphox-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "phyphox-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95C25D92701CD0500900C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D95C25DF2701CD0500900C1B /* phyphox-watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "phyphox-watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95C25E42701CD0500900C1B /* phyphoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phyphoxApp.swift; sourceTree = "<group>"; };
+		D95C25E62701CD0500900C1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D95C25E82701CD0500900C1B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D95C25EA2701CD0500900C1B /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		D95C25EC2701CD0500900C1B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D95C25EE2701CD0700900C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D95C25F12701CD0700900C1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D95C25F32701CD0700900C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95C25F42701CD0700900C1B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D95C25F92701CD0700900C1B /* phyphox-watchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "phyphox-watchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95C25FD2701CD0700900C1B /* phyphox_watchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phyphox_watchTests.swift; sourceTree = "<group>"; };
+		D95C26032701CD0700900C1B /* phyphox-watchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "phyphox-watchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95C26072701CD0700900C1B /* phyphox_watchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phyphox_watchUITests.swift; sourceTree = "<group>"; };
+		D95C26092701CD0700900C1B /* phyphox_watchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phyphox_watchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D95C261C2701CE9100900C1B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -674,6 +756,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C051CFA922AEEB4000355864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C25DC2701CD0500900C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C25F62701CD0700900C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C26002701CD0700900C1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -825,6 +928,10 @@
 			children = (
 				6B7BF77C1C130425007408FB /* phyphox */,
 				C051CFAD22AEEB4100355864 /* phyphox screenshots */,
+				D95C25D82701CD0300900C1B /* phyphox-watch */,
+				D95C25E32701CD0500900C1B /* phyphox-watch WatchKit Extension */,
+				D95C25FC2701CD0700900C1B /* phyphox-watchTests */,
+				D95C26062701CD0700900C1B /* phyphox-watchUITests */,
 				6B7BF77B1C130425007408FB /* Products */,
 				C075AA7B2232CC0500DE86D8 /* Frameworks */,
 			);
@@ -835,6 +942,10 @@
 			children = (
 				6B7BF77A1C130425007408FB /* phyphox.app */,
 				C051CFAC22AEEB4000355864 /* phyphox screenshots.xctest */,
+				D95C25D72701CD0300900C1B /* phyphox-watch.app */,
+				D95C25DF2701CD0500900C1B /* phyphox-watch WatchKit Extension.appex */,
+				D95C25F92701CD0700900C1B /* phyphox-watchTests.xctest */,
+				D95C26032701CD0700900C1B /* phyphox-watchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1273,6 +1384,56 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D95C25D82701CD0300900C1B /* phyphox-watch */ = {
+			isa = PBXGroup;
+			children = (
+				D95C25D92701CD0500900C1B /* Assets.xcassets */,
+			);
+			path = "phyphox-watch";
+			sourceTree = "<group>";
+		};
+		D95C25E32701CD0500900C1B /* phyphox-watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D95C25E42701CD0500900C1B /* phyphoxApp.swift */,
+				D95C25E62701CD0500900C1B /* ContentView.swift */,
+				D95C261C2701CE9100900C1B /* ContentViewModel.swift */,
+				D95C25E82701CD0500900C1B /* NotificationController.swift */,
+				D95C25EA2701CD0500900C1B /* NotificationView.swift */,
+				D95C25EC2701CD0500900C1B /* ComplicationController.swift */,
+				D95C25EE2701CD0700900C1B /* Assets.xcassets */,
+				D95C25F32701CD0700900C1B /* Info.plist */,
+				D95C25F42701CD0700900C1B /* PushNotificationPayload.apns */,
+				D95C25F02701CD0700900C1B /* Preview Content */,
+			);
+			path = "phyphox-watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D95C25F02701CD0700900C1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D95C25F12701CD0700900C1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D95C25FC2701CD0700900C1B /* phyphox-watchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D95C25FD2701CD0700900C1B /* phyphox_watchTests.swift */,
+			);
+			path = "phyphox-watchTests";
+			sourceTree = "<group>";
+		};
+		D95C26062701CD0700900C1B /* phyphox-watchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D95C26072701CD0700900C1B /* phyphox_watchUITests.swift */,
+				D95C26092701CD0700900C1B /* phyphox_watchUITestsLaunchTests.swift */,
+			);
+			path = "phyphox-watchUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1285,6 +1446,7 @@
 				6B7BF7781C130425007408FB /* Resources */,
 				6B7BF7AB1C130436007408FB /* ShellScript */,
 				6B7BF7E51C131FE1007408FB /* Embed Frameworks */,
+				D95C26152701CD0700900C1B /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -1293,6 +1455,7 @@
 				6B08152C1CABEE7700EE2791 /* PBXTargetDependency */,
 				6B0815341CABEE7F00EE2791 /* PBXTargetDependency */,
 				6BD026E81CB571A4005085B1 /* PBXTargetDependency */,
+				D95C260C2701CD0700900C1B /* PBXTargetDependency */,
 			);
 			name = phyphox;
 			packageProductDependencies = (
@@ -1319,13 +1482,83 @@
 			productReference = C051CFAC22AEEB4000355864 /* phyphox screenshots.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D95C25D62701CD0300900C1B /* phyphox-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95C26122701CD0700900C1B /* Build configuration list for PBXNativeTarget "phyphox-watch" */;
+			buildPhases = (
+				D95C25D52701CD0300900C1B /* Resources */,
+				D95C26112701CD0700900C1B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95C25E22701CD0500900C1B /* PBXTargetDependency */,
+			);
+			name = "phyphox-watch";
+			productName = "phyphox-watch";
+			productReference = D95C25D72701CD0300900C1B /* phyphox-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D95C25DE2701CD0500900C1B /* phyphox-watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95C260E2701CD0700900C1B /* Build configuration list for PBXNativeTarget "phyphox-watch WatchKit Extension" */;
+			buildPhases = (
+				D95C25DB2701CD0500900C1B /* Sources */,
+				D95C25DC2701CD0500900C1B /* Frameworks */,
+				D95C25DD2701CD0500900C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "phyphox-watch WatchKit Extension";
+			productName = "phyphox-watch WatchKit Extension";
+			productReference = D95C25DF2701CD0500900C1B /* phyphox-watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D95C25F82701CD0700900C1B /* phyphox-watchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95C26162701CD0700900C1B /* Build configuration list for PBXNativeTarget "phyphox-watchTests" */;
+			buildPhases = (
+				D95C25F52701CD0700900C1B /* Sources */,
+				D95C25F62701CD0700900C1B /* Frameworks */,
+				D95C25F72701CD0700900C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95C25FB2701CD0700900C1B /* PBXTargetDependency */,
+			);
+			name = "phyphox-watchTests";
+			productName = "phyphox-watchTests";
+			productReference = D95C25F92701CD0700900C1B /* phyphox-watchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D95C26022701CD0700900C1B /* phyphox-watchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95C26192701CD0700900C1B /* Build configuration list for PBXNativeTarget "phyphox-watchUITests" */;
+			buildPhases = (
+				D95C25FF2701CD0700900C1B /* Sources */,
+				D95C26002701CD0700900C1B /* Frameworks */,
+				D95C26012701CD0700900C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95C26052701CD0700900C1B /* PBXTargetDependency */,
+			);
+			name = "phyphox-watchUITests";
+			productName = "phyphox-watchUITests";
+			productReference = D95C26032701CD0700900C1B /* phyphox-watchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		6B7BF7721C130425007408FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "RWTH Aachen";
 				TargetAttributes = {
@@ -1345,6 +1578,28 @@
 						DevelopmentTeam = 44GTV4NJA9;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6B7BF7791C130425007408FB;
+					};
+					D95C25D62701CD0300900C1B = {
+						CreatedOnToolsVersion = 13.0;
+						DevelopmentTeam = 44GTV4NJA9;
+						ProvisioningStyle = Automatic;
+					};
+					D95C25DE2701CD0500900C1B = {
+						CreatedOnToolsVersion = 13.0;
+						DevelopmentTeam = 2CFZ99QKY4;
+						ProvisioningStyle = Automatic;
+					};
+					D95C25F82701CD0700900C1B = {
+						CreatedOnToolsVersion = 13.0;
+						DevelopmentTeam = 2CFZ99QKY4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D95C25DE2701CD0500900C1B;
+					};
+					D95C26022701CD0700900C1B = {
+						CreatedOnToolsVersion = 13.0;
+						DevelopmentTeam = 2CFZ99QKY4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D95C25D62701CD0300900C1B;
 					};
 				};
 			};
@@ -1409,6 +1664,10 @@
 			targets = (
 				6B7BF7791C130425007408FB /* phyphox */,
 				C051CFAB22AEEB4000355864 /* phyphox screenshots */,
+				D95C25D62701CD0300900C1B /* phyphox-watch */,
+				D95C25DE2701CD0500900C1B /* phyphox-watch WatchKit Extension */,
+				D95C25F82701CD0700900C1B /* phyphox-watchTests */,
+				D95C26022701CD0700900C1B /* phyphox-watchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1570,6 +1829,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C051CFAA22AEEB4000355864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C25D52701CD0300900C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95C25DA2701CD0500900C1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C25DD2701CD0500900C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95C25F22701CD0700900C1B /* Preview Assets.xcassets in Resources */,
+				D95C25EF2701CD0700900C1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C25F72701CD0700900C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C26012701CD0700900C1B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1794,6 +2084,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D95C25DB2701CD0500900C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95C25E92701CD0500900C1B /* NotificationController.swift in Sources */,
+				D95C25E72701CD0500900C1B /* ContentView.swift in Sources */,
+				D95C261D2701CE9100900C1B /* ContentViewModel.swift in Sources */,
+				D95C25ED2701CD0500900C1B /* ComplicationController.swift in Sources */,
+				D95C25E52701CD0500900C1B /* phyphoxApp.swift in Sources */,
+				D95C25EB2701CD0500900C1B /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C25F52701CD0700900C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95C25FE2701CD0700900C1B /* phyphox_watchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95C25FF2701CD0700900C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95C26082701CD0700900C1B /* phyphox_watchUITests.swift in Sources */,
+				D95C260A2701CD0700900C1B /* phyphox_watchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1821,6 +2141,26 @@
 			isa = PBXTargetDependency;
 			target = 6B7BF7791C130425007408FB /* phyphox */;
 			targetProxy = C051CFB122AEEB4100355864 /* PBXContainerItemProxy */;
+		};
+		D95C25E22701CD0500900C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95C25DE2701CD0500900C1B /* phyphox-watch WatchKit Extension */;
+			targetProxy = D95C25E12701CD0500900C1B /* PBXContainerItemProxy */;
+		};
+		D95C25FB2701CD0700900C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95C25DE2701CD0500900C1B /* phyphox-watch WatchKit Extension */;
+			targetProxy = D95C25FA2701CD0700900C1B /* PBXContainerItemProxy */;
+		};
+		D95C26052701CD0700900C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95C25D62701CD0300900C1B /* phyphox-watch */;
+			targetProxy = D95C26042701CD0700900C1B /* PBXContainerItemProxy */;
+		};
+		D95C260C2701CD0700900C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95C25D62701CD0300900C1B /* phyphox-watch */;
+			targetProxy = D95C260B2701CD0700900C1B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2171,6 +2511,284 @@
 			};
 			name = Release;
 		};
+		D95C260F2701CD0700900C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"phyphox-watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2CFZ99QKY4;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "phyphox-watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "phyphox-watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 RWTH Aachen. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.physics.phyphox.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D95C26102701CD0700900C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"phyphox-watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2CFZ99QKY4;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "phyphox-watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "phyphox-watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 RWTH Aachen. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.physics.phyphox.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D95C26132701CD0700900C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44GTV4NJA9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = phyphox_watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "phyphox-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "de.rwth-aachen.physics.phyphox";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.physics.phyphox.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D95C26142701CD0700900C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44GTV4NJA9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = phyphox_watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "phyphox-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "de.rwth-aachen.physics.phyphox";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.physics.phyphox.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D95C26172701CD0700900C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CFZ99QKY4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.physics.phyphox.phyphox-watchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phyphox-watch WatchKit Extension.appex/phyphox-watch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D95C26182701CD0700900C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CFZ99QKY4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.physics.phyphox.phyphox-watchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phyphox-watch WatchKit Extension.appex/phyphox-watch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D95C261A2701CD0700900C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CFZ99QKY4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.physics.phyphox.phyphox-watchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "phyphox-watch";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D95C261B2701CD0700900C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CFZ99QKY4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.physics.phyphox.phyphox-watchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "phyphox-watch";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2197,6 +2815,42 @@
 			buildConfigurations = (
 				C051CFB322AEEB4100355864 /* Debug */,
 				C051CFB422AEEB4100355864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95C260E2701CD0700900C1B /* Build configuration list for PBXNativeTarget "phyphox-watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95C260F2701CD0700900C1B /* Debug */,
+				D95C26102701CD0700900C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95C26122701CD0700900C1B /* Build configuration list for PBXNativeTarget "phyphox-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95C26132701CD0700900C1B /* Debug */,
+				D95C26142701CD0700900C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95C26162701CD0700900C1B /* Build configuration list for PBXNativeTarget "phyphox-watchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95C26172701CD0700900C1B /* Debug */,
+				D95C26182701CD0700900C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95C26192701CD0700900C1B /* Build configuration list for PBXNativeTarget "phyphox-watchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95C261A2701CD0700900C1B /* Debug */,
+				D95C261B2701CD0700900C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
