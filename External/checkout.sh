@@ -10,8 +10,6 @@ echo Refreshing GitHub Sources
 
 . checkoutLatestRelease.sh swisspol/GCDWebServer GCDWebServer
 
-. checkoutLatestTag.sh EdumodeOrg/EduRoomSDK-iOS EduRoomSDK-iOS
-
 . checkoutLatestTag.sh robbiehanson/CocoaAsyncSocket CocoaAsyncSocket
 
 . checkoutLatestTag.sh emqx/CocoaMQTT CocoaMQTT

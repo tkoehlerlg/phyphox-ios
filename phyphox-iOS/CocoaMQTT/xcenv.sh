@@ -1,0 +1,6 @@
+export BUILT_PRODUCTS_DIR="/Users/mr.x/Library/Developer/Xcode/DerivedData/phyphox-gpbimnmmyvbwliepojnsvhlayqyq/Build/Products/Debug-iphonesimulator"
+export CURRENT_ARCH="x86_64"
+export OBJECT_FILE_DIR_normal="/Users/mr.x/Library/Developer/Xcode/DerivedData/phyphox-gpbimnmmyvbwliepojnsvhlayqyq/Build/Intermediates.noindex/CocoaMQTT.build/Debug-iphonesimulator/CocoaMQTT.build/Objects-normal"
+export OBJROOT="/Users/mr.x/Library/Developer/Xcode/DerivedData/phyphox-gpbimnmmyvbwliepojnsvhlayqyq/Build/Intermediates.noindex"
+export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR="YES"
+export SRCROOT="/Users/mr.x/Developer/Phyphox/phyphox-ios/phyphox-iOS/CocoaMQTT"

@@ -59,14 +59,15 @@ extension UInt8 {
 }
 
 public enum CocoaMQTTError: Error {
-    case invalidFrameStructrue
-    case invalidURL
-    case readTimeout
-    case writeTimeout
-    
-    @available(OSX 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
-    case closed(URLSessionWebSocketTask.CloseCode)
-}
+     @available(OSX 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
+     enum FoundationConnection: Error {
+         case closed(URLSessionWebSocketTask.CloseCode)
+     }
+
+     case invalidURL
+     case readTimeout
+     case writeTimeout
+ }
 
 extension Array where Element == UInt8 {
     var summary: String {
