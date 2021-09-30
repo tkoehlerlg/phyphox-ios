@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -172,15 +172,12 @@
 		C04FE6F522281E3800BD691C /* ApplyZoomDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FE6F422281E3800BD691C /* ApplyZoomDialog.swift */; };
 		C051CFAF22AEEB4100355864 /* phyphox_screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051CFAE22AEEB4100355864 /* phyphox_screenshots.swift */; };
 		C051CFC522AEEB8800355864 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051CFC422AEEB8800355864 /* SnapshotHelper.swift */; };
-		C055F574256EA1EF0028753A /* CocoaMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A3DC77256E8A93005AD43C /* CocoaMQTT.framework */; };
-		C055F575256EA1EF0028753A /* CocoaMQTT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0A3DC77256E8A93005AD43C /* CocoaMQTT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C05CD336258BA0DF00662BDF /* ExperimentTimeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CD335258BA0DF00662BDF /* ExperimentTimeReference.swift */; };
 		C05CD472258C904C00662BDF /* EventsElementHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CD471258C904C00662BDF /* EventsElementHandler.swift */; };
 		C05CD4A0258D030500662BDF /* GraphPauseMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CD49F258D030500662BDF /* GraphPauseMarkerView.swift */; };
 		C0601DDD23840C550033FFF6 /* GpsGeoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601DDC23840C550033FFF6 /* GpsGeoid.swift */; };
 		C0601DEF23840ECE0033FFF6 /* egm84_30.pgm in Resources */ = {isa = PBXBuildFile; fileRef = C0601DEE23840ECE0033FFF6 /* egm84_30.pgm */; };
 		C060904E21E28727000BEE30 /* ExperimentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060904D21E28727000BEE30 /* ExperimentPickerViewController.swift */; };
-		C063C65D238EBD0F00327AE7 /* EduRoom.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD0ADD238EA8D600D76032 /* EduRoom.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C063C660238ECBC500327AE7 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063C65F238ECBC500327AE7 /* NetworkConnection.swift */; };
 		C063C662238ECCD000327AE7 /* NetworkDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063C661238ECCD000327AE7 /* NetworkDiscovery.swift */; };
 		C063C664238ECCE700327AE7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063C663238ECCE700327AE7 /* NetworkService.swift */; };
@@ -188,8 +185,6 @@
 		C063C668238F27D900327AE7 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063C667238F27D900327AE7 /* Metadata.swift */; };
 		C063DA8B228C52D000367384 /* MarkerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063DA8A228C52D000367384 /* MarkerOverlayView.swift */; };
 		C065AB9324CAE08300919670 /* UIExperimentTabControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065AB9224CAE08300919670 /* UIExperimentTabControl.swift */; };
-		C07477BC256EAE550032ADC3 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07477B9256EADD30032ADC3 /* CocoaAsyncSocket.framework */; };
-		C07477BD256EAE550032ADC3 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C07477B9256EADD30032ADC3 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C075AA802232CCF600DE86D8 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C075AA7E2232CCF500DE86D8 /* BEMCheckBoxGroup.m */; };
 		C079BC6A2260D2B40018D6A5 /* localizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C079BC692260D2B40018D6A5 /* localizationHelper.swift */; };
 		C07B53032294264200BA085A /* BluetoothScanResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B53002294264200BA085A /* BluetoothScanResultsTableViewController.swift */; };
@@ -215,9 +210,10 @@
 		C0AD8542229E7E7A00421738 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD8541229E7E7A00421738 /* MenuTableViewController.swift */; };
 		C0AD8552229EA1CF00421738 /* HintBubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD8551229EA1CF00421738 /* HintBubbleViewController.swift */; };
 		C0AE8A982294558000A3EC48 /* ConfigConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AE8A972294558000A3EC48 /* ConfigConversion.swift */; };
-		C0BD0AE0238EA8F400D76032 /* EduRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD0ADD238EA8D600D76032 /* EduRoom.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		C0C529002254C01E001E5EFD /* ReduceAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C528FF2254C01E001E5EFD /* ReduceAnalysis.swift */; };
 		C0C529102254F2F3001E5EFD /* MapAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5290F2254F2F3001E5EFD /* MapAnalysis.swift */; };
+		D9566CE42705BB2400B4EE88 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = D9566CE32705BB2400B4EE88 /* JGProgressHUD */; };
+		D9566CE72705BBD100B4EE88 /* BEMCheckBox in Frameworks */ = {isa = PBXBuildFile; productRef = D9566CE62705BBD100B4EE88 /* BEMCheckBox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -368,34 +364,6 @@
 			remoteGlobalIDString = 6B7BF7791C130425007408FB;
 			remoteInfo = phyphox;
 		};
-		C07477B8256EADD30032ADC3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C07477B4256EADD30032ADC3 /* CocoaAsyncSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6CD990101B77868C0011A685;
-			remoteInfo = "iOS CocoaAsyncSocket";
-		};
-		C0A3DC76256E8A93005AD43C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C0A3DC71256E8A93005AD43C /* CocoaMQTT.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8225B532227C2E8700E4DB51;
-			remoteInfo = CocoaMQTT;
-		};
-		C0BD0ADC238EA8D600D76032 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C0BD0AD7238EA8D600D76032 /* EduRoom.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C0BD0A7F238EA76500D76032;
-			remoteInfo = EduRoom;
-		};
-		C0BD0ADE238EA8D600D76032 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C0BD0AD7238EA8D600D76032 /* EduRoom.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C0BD0A88238EA76500D76032;
-			remoteInfo = EduRoomTests;
-		};
 		C0CB36B12034A98D00D3AD77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6B0814CC1CABEE2600EE2791 /* JGProgressHUD.xcodeproj */;
@@ -412,9 +380,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C07477BD256EAE550032ADC3 /* CocoaAsyncSocket.framework in Embed Frameworks */,
-				C055F575256EA1EF0028753A /* CocoaMQTT.framework in Embed Frameworks */,
-				C063C65D238EBD0F00327AE7 /* EduRoom.framework in Embed Frameworks */,
 				6B0815321CABEE7F00EE2791 /* ZipZap.framework in Embed Frameworks */,
 				6BD026E61CB571A4005085B1 /* GCDWebServers.framework in Embed Frameworks */,
 				6B08152A1CABEE7700EE2791 /* JGProgressHUD.framework in Embed Frameworks */,
@@ -640,7 +605,6 @@
 		C06D0E7622AEAFB400B2BDF1 /* zh_Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hant; path = zh_Hant.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C06D0E7722AEAFC100B2BDF1 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = zh_Hans.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C06D0E7822AEAFC100B2BDF1 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = zh_Hans.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C07477B4256EADD30032ADC3 /* CocoaAsyncSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaAsyncSocket.xcodeproj; path = CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj; sourceTree = "<group>"; };
 		C075AA7C2232CC0600DE86D8 /* BEMCheckBox */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BEMCheckBox; path = ../External/BEMCheckBox; sourceTree = "<group>"; };
 		C075AA7E2232CCF500DE86D8 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
 		C075AA7F2232CCF600DE86D8 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
@@ -662,14 +626,12 @@
 		C0984B2D2278870300D0EBCD /* GLMapShaderProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMapShaderProgram.swift; sourceTree = "<group>"; };
 		C09962AC22391AF00015AE17 /* FixedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedTableView.swift; sourceTree = "<group>"; };
 		C0A3BE5A2390070900951C23 /* NetworkElementHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkElementHandler.swift; sourceTree = "<group>"; };
-		C0A3DC71256E8A93005AD43C /* CocoaMQTT.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaMQTT.xcodeproj; path = CocoaMQTT/CocoaMQTT.xcodeproj; sourceTree = "<group>"; };
 		C0A97FE62477DCBF00A630EE /* SortAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortAnalysis.swift; sourceTree = "<group>"; };
 		C0A97FF82477E39000A630EE /* InterpolateAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolateAnalysis.swift; sourceTree = "<group>"; };
 		C0A97FFA2477EC9A00A630EE /* LoessAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoessAnalysis.swift; sourceTree = "<group>"; };
 		C0AD8541229E7E7A00421738 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		C0AD8551229EA1CF00421738 /* HintBubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintBubbleViewController.swift; sourceTree = "<group>"; };
 		C0AE8A972294558000A3EC48 /* ConfigConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigConversion.swift; sourceTree = "<group>"; };
-		C0BD0AD7238EA8D600D76032 /* EduRoom.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EduRoom.xcodeproj; path = "EduRoom-Framework/EduRoom/EduRoom.xcodeproj"; sourceTree = "<group>"; };
 		C0C528FF2254C01E001E5EFD /* ReduceAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceAnalysis.swift; sourceTree = "<group>"; };
 		C0C5290F2254F2F3001E5EFD /* MapAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnalysis.swift; sourceTree = "<group>"; };
 		C0D47C172408741600F84F74 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -685,13 +647,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BD0AE0238EA8F400D76032 /* EduRoom.framework in Frameworks */,
 				6B0815441CABF61B00EE2791 /* libc++.tbd in Frameworks */,
-				C07477BC256EAE550032ADC3 /* CocoaAsyncSocket.framework in Frameworks */,
-				C055F574256EA1EF0028753A /* CocoaMQTT.framework in Frameworks */,
 				6BD026E51CB571A4005085B1 /* GCDWebServers.framework in Frameworks */,
+				D9566CE72705BBD100B4EE88 /* BEMCheckBox in Frameworks */,
 				6B0815421CABEFBF00EE2791 /* libJXLS.a in Frameworks */,
 				6B0815311CABEE7F00EE2791 /* ZipZap.framework in Frameworks */,
+				D9566CE42705BB2400B4EE88 /* JGProgressHUD in Frameworks */,
 				6B0815291CABEE7700EE2791 /* JGProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1270,40 +1231,12 @@
 			path = NetworkConnection;
 			sourceTree = "<group>";
 		};
-		C07477B5256EADD30032ADC3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C07477B9256EADD30032ADC3 /* CocoaAsyncSocket.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C075AA7B2232CC0500DE86D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C07477B4256EADD30032ADC3 /* CocoaAsyncSocket.xcodeproj */,
-				C0A3DC71256E8A93005AD43C /* CocoaMQTT.xcodeproj */,
-				C0BD0AD7238EA8D600D76032 /* EduRoom.xcodeproj */,
 				C075AA7C2232CC0600DE86D8 /* BEMCheckBox */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0A3DC72256E8A93005AD43C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C0A3DC77256E8A93005AD43C /* CocoaMQTT.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C0BD0AD8238EA8D600D76032 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C0BD0ADD238EA8D600D76032 /* EduRoom.framework */,
-				C0BD0ADF238EA8D600D76032 /* EduRoomTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1328,6 +1261,10 @@
 				6BD026E81CB571A4005085B1 /* PBXTargetDependency */,
 			);
 			name = phyphox;
+			packageProductDependencies = (
+				D9566CE32705BB2400B4EE88 /* JGProgressHUD */,
+				D9566CE62705BBD100B4EE88 /* BEMCheckBox */,
+			);
 			productName = phyphox;
 			productReference = 6B7BF77A1C130425007408FB /* phyphox.app */;
 			productType = "com.apple.product-type.application";
@@ -1406,21 +1343,15 @@
 				tr,
 			);
 			mainGroup = 6B7BF7711C130425007408FB;
+			packageReferences = (
+				D9566CDB2705B58500B4EE88 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
+				D9566CE22705BB2400B4EE88 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				D9566CE52705BBD100B4EE88 /* XCRemoteSwiftPackageReference "BEMCheckBox" */,
+				D9084DF82705CA71005F24CC /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+			);
 			productRefGroup = 6B7BF77B1C130425007408FB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
-				{
-					ProductGroup = C07477B5256EADD30032ADC3 /* Products */;
-					ProjectRef = C07477B4256EADD30032ADC3 /* CocoaAsyncSocket.xcodeproj */;
-				},
-				{
-					ProductGroup = C0A3DC72256E8A93005AD43C /* Products */;
-					ProjectRef = C0A3DC71256E8A93005AD43C /* CocoaMQTT.xcodeproj */;
-				},
-				{
-					ProductGroup = C0BD0AD8238EA8D600D76032 /* Products */;
-					ProjectRef = C0BD0AD7238EA8D600D76032 /* EduRoom.xcodeproj */;
-				},
 				{
 					ProductGroup = 6BD026CD1CB57199005085B1 /* Products */;
 					ProjectRef = 6BD026CC1CB57199005085B1 /* GCDWebServer.xcodeproj */;
@@ -1557,34 +1488,6 @@
 			fileType = wrapper.cfbundle;
 			path = Tests.xctest;
 			remoteRef = 6BD026E31CB57199005085B1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C07477B9256EADD30032ADC3 /* CocoaAsyncSocket.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaAsyncSocket.framework;
-			remoteRef = C07477B8256EADD30032ADC3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C0A3DC77256E8A93005AD43C /* CocoaMQTT.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaMQTT.framework;
-			remoteRef = C0A3DC76256E8A93005AD43C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C0BD0ADD238EA8D600D76032 /* EduRoom.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EduRoom.framework;
-			remoteRef = C0BD0ADC238EA8D600D76032 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C0BD0ADF238EA8D600D76032 /* EduRoomTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = EduRoomTests.xctest;
-			remoteRef = C0BD0ADE238EA8D600D76032 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		C0CB36B22034A98D00D3AD77 /* JGProgressHUD.framework */ = {
@@ -2090,7 +1993,10 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = phyphox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 1.1.10;
 				OTHER_LDFLAGS = "";
@@ -2148,7 +2054,10 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = phyphox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 1.1.10;
 				OTHER_LDFLAGS = "";
@@ -2180,7 +2089,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "phyphox screenshots/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.phyphox-screenshots";
@@ -2207,7 +2120,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "phyphox screenshots/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.rwth-aachen.phyphox-screenshots";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2249,6 +2166,54 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9084DF82705CA71005F24CC /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D9566CDB2705B58500B4EE88 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D9566CE22705BB2400B4EE88 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		D9566CE52705BBD100B4EE88 /* XCRemoteSwiftPackageReference "BEMCheckBox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Boris-Em/BEMCheckBox";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9566CE32705BB2400B4EE88 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9566CE22705BB2400B4EE88 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		D9566CE62705BBD100B4EE88 /* BEMCheckBox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9566CE52705BBD100B4EE88 /* XCRemoteSwiftPackageReference "BEMCheckBox" */;
+			productName = BEMCheckBox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B7BF7721C130425007408FB /* Project object */;
 }
